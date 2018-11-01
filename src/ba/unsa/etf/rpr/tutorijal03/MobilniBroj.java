@@ -10,8 +10,9 @@ public class MobilniBroj extends TelefonskiBroj {
     }
 
     @Override
-    public void Ispisi() {
-        System.out.println("0" + mobilnaMreza + "/" + mobilniBroj);
+    public String ispisi() {
+        String s = new String("0" + mobilnaMreza + "/" + mobilniBroj);
+        return s;
     }
 
     @Override

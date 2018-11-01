@@ -10,8 +10,9 @@ public class MedunarodniBroj extends TelefonskiBroj{
     }
 
     @Override
-    public void Ispisi() {
-        System.out.println(drzava + medunardniBroj);
+    public String ispisi() {
+        String s = new String(drzava + medunardniBroj);
+        return s;
     }
 
     @Override

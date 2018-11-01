@@ -28,8 +28,9 @@ public class FiksniBroj extends TelefonskiBroj {
     }
 
     @Override
-    public void Ispisi() {
-        System.out.println( grad + "/" + fiksniBroj );
+    public String ispisi() {
+        String s = new String(grad + "/" + fiksniBroj);
+        return s;
     }
 
     @Override
